@@ -1,9 +1,9 @@
 What I've Learned in Week 4
 
 Javascript
-- Parameter 
-- return
-  - def-The return statement stops the execution of a function and returns a value from that function.
+- A function is a subprogram designed to perform a particular task
+- Parameters are variables listed as a part of the function definition.
+- return - return statement stops the execution of a function and returns a value from that function.
 Ex.
 
 ```Javascript
@@ -79,5 +79,15 @@ or(true, true):
 //true
 ```
 
+Fahrenheit app
+
+```Javascript
+function toFahrenheit(celsius) {   
+    let fahrenheit = celsius * 9 / 5 + 32; console.log(fahrenheit); 
+} 
+
+toFahrenheit(23);
+//73.4
+```
 
 More, more, and more Human Rescources
